@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="shortcut icon" href="Bg.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/sounds.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="Main-block">
+        <h1>Pomodoro Timer</h1>
+        <div class="Duration-Buttons">
+
+            <div class="form-check">
+                <div class="btn">
+                    <input class="form-check-input" type="radio" name="timerType" id="min25" value="25" checked>
+                    <label class="form-check-label" for="min25">Pomodoro</label>
+
+                </div>
+                <div class="btn">
+                    <input class="form-check-input" type="radio" name="timerType" id="min5" value="5">
+                    <label class="form-check-label" for="min5">Short Break</label>
+
+                </div>
+                <div class="btn">
+                    <input class="form-check-input" type="radio" name="timerType" id="min10" value="10">
+                    <label class="form-check-label" for="min10">Long Break</label>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="timer">25:00</div>
+        <div id="pomo-btn" class="Function-Button">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+
+    <!-- ------------------------------------------------------- -->
+
+    <div class="container">
+
+        <div>
+            <h2>Background Noises</h2>
+        </div>
+        <div class="noises">
+            <button class="soundbtn" onclick='playSound("sounds/white.mp3", "white")' id="white">White </button>
+            <button class="soundbtn" onclick='playSound("sounds/brown.mp3", "brown")' id="brown">Brown </button>
+            <button class="soundbtn" onclick='playSound("sounds/birds.mp3", "birds")' id="birds">Birds </button>
+            <!-- <button class="soundbtn" onclick='playSound("sounds/fire.mp3", "fire")' id="fire">Fire </button> -->
+            <button class="soundbtn" onclick='playSound("sounds/nature.wav", "nature")' id="nature">Nature</button>
+            <button class="soundbtn" onclick='playSound("sounds/rain.mp3", "rain")' id="rain">rain </button>
+            <button class="soundbtn" onclick='playSound("sounds/river.mp3", "river")' id="river">river</button>
+
+        </div>
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/sounds.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+/* ============================= */
+/* LARGE TABLETS & SMALL LAPTOPS */
+/* ============================= */
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #timer {
+        font-size: 7rem;
+        letter-spacing: 6px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .noises {
+        margin: 0 10%;
+        flex-wrap: wrap;
+    }
+
+    .noises>button {
+        width: 40%;
+        margin: 0.5rem;
+    }
+}
+
+/* ============================= */
+/* TABLETS */
+/* ============================= */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    #Main-block {
+        padding: 1rem;
+    }
+
+    .form-check {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin: 0.5rem;
+    }
+
+    #timer {
+        font-size: 6rem;
+        letter-spacing: 4px;
+    }
+
+    .Function-Button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Function-Button button {
+        margin: 0.5rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .noises {
+        margin: 0 5%;
+        flex-wrap: wrap;
+    }
+
+    .noises>button {
+        width: 45%;
+        padding: 1rem;
+    }
+}
+
+/* ============================= */
+/* MOBILE PHONES */
+/* ============================= */
+@media (max-width: 480px) {
+
+    body {
+        /* background-position: center; */
+        background: url(../Bg.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    #Main-block {
+        margin-top: 20%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    #timer {
+        margin-top: 1rem;
+        font-size: 4.5rem;
+        letter-spacing: 2px;
+    }
+
+
+    .Duration-Buttons>button {
+        margin: 0.5rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .form-check {
+        flex-direction: column;
+    }
+
+   .form-check-label {
+    font-size: .7rem !important;
+    margin: 0rem !important;
+    padding: 1rem !important;
+}
+
+    button {
+        /* font-size: .2rem ; */
+        padding: 0.8rem 1.2rem;
+    }
+
+    .container {
+        width: 95%;
+        margin-top: 2rem;
+        padding: 2rem 0rem;
+    }
+
+    .noises {
+        margin: 0;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .noises>button {
+        width: 40%;
+        margin: 0.4rem auto;
+    }
+}

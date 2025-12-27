@@ -1,0 +1,127 @@
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Open Sans", sans-serif !important;
+    font-family: "Work Sans", sans-serif !important;
+
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    background: cover url(Bg.jpg) !important;
+    background-repeat: no-repeat !important;
+    /* background-size: ; */
+    /* background: url(); */
+    /* background: url(); */
+    /* background: url(https://i.pinimg.com/originals/da/71/bc/da71bccc03313f65ba9005d96b373d69.gif); */
+    /* background: url(https://i.pinimg.com/originals/5b/9f/28/5b9f288b540419cd82193cc91e516e9e.gif); */
+    /* background-size: cover; */
+
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#Main-block {
+    /* margin-top: 3%; */
+    /* border: 1px solid gray; */
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Duration-Buttons {
+    display: flex;
+}
+
+.Duration-Buttons>button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+button {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#timer {
+    font-weight: 600;
+    font-size: 9rem;
+    letter-spacing: 10px;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.form-check-label {
+    font-size: 1rem !important;
+    /* margin: 0rem !important; */
+    /* padding: 1rem !important; */
+}
+
+.btn {
+    margin: 2rem;
+}
+
+/* ------------------------ */
+
+
+#form-check {
+    display: inline-flex;
+}
+
+.form-check-input {
+    display: none;
+
+}
+
+.form-check {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+}
+
+.form-check-input+.form-check-label {
+    border: 2px solid white;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: none;
+    color: white;
+}
+
+.form-check-input:checked+.form-check-label {
+    background-color: white !important;
+    color: black;
+}
+
+.btn {
+    margin: 1rem;
+    /* border-radius: 2rem; */
+}
+
+.form-check-input+.form-check-label:hover {
+    color: black;
+
+    background-color: white;
+}
